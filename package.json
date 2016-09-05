@@ -2,7 +2,7 @@
   "name": "baijiaxing",
   "version": "0.0.1",
   "description": "baijiaxing = 百家姓",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "mocha",
     "test-cover": "istanbul cover _mocha -- -u exports"
@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/magicdawn/baijiaxing.js#readme",
   "dependencies": {
-    "co": "^4.6.0"
+    "co": "^4.6.0",
+    "lodash": "^4.15.0"
   },
   "devDependencies": {
     "co-mocha": "^1.1.3",
