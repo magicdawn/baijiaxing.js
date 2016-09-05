@@ -17,7 +17,7 @@ $ npm i baijiaxing --save
 const baijiaxing = require('baijiaxing');
 ```
 
-### `get(中文姓名)`
+### `.get(中文姓名)`
 
 ```js
 baijiaxing.get('张三').should.equal('zhang');
