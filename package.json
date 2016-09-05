@@ -23,7 +23,6 @@
   },
   "homepage": "https://github.com/magicdawn/baijiaxing.js#readme",
   "dependencies": {
-    "co": "^4.6.0",
     "lodash": "^4.15.0"
   },
   "devDependencies": {
@@ -33,5 +32,12 @@
     "istanbul": "^0.4.5",
     "mocha": "^3.0.2",
     "should": "^11.1.0"
-  }
+  },
+  "files": [
+    "lib/",
+    "package.json",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ]
 }

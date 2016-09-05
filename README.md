@@ -17,6 +17,23 @@ $ npm i baijiaxing --save
 const baijiaxing = require('baijiaxing');
 ```
 
+### `get(中文姓名)`
+
+```js
+baijiaxing.get('张三').should.equal('zhang');
+baijiaxing.get('李四').should.equal('li');
+baijiaxing.get('诸葛亮').should.equal('zhu ge');
+```
+
+### `.getWithTone(中文姓名)`
+
+```js
+baijiaxing.getWithTone('张三').should.equal('zhāng');
+baijiaxing.getWithTone('李四').should.equal('lǐ');
+baijiaxing.getWithTone('诸葛亮').should.equal('zhū gě');
+```
+
+
 ## Changelog
 [CHANGELOG.md](CHANGELOG.md)
 
