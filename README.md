@@ -1,4 +1,6 @@
 # baijiaxing
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/magicdawn/baijiaxing.js.svg)](https://greenkeeper.io/)
 > baijiaxing = 百家姓
 
 [![Build Status](https://img.shields.io/travis/magicdawn/baijiaxing.js.svg?style=flat-square)](https://travis-ci.org/magicdawn/baijiaxing.js)
